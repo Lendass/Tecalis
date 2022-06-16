@@ -1,12 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AGAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,KAAK;CAC1B",
-    "sources": [
-        "main.scss",
-        "abstracts/_variables.scss",
-        "abstracts/_mixins.scss",
-        "styles/_styles.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sources":["styles/_styles.scss","main.css"],"names":[],"mappings":"AAAA;EACI,sBAAA;ACCJ","file":"main.css"}
