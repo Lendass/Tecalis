@@ -5,9 +5,185 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="main.css">
+        <script src="javascript.js"></script> 
         <title>Tecalis</title>
     </head>
     <body>
-        Hello world
+        <header>
+            <div class="header__logo"></div>
+            <div class="header__menu">
+                <div class="header__menu__section"> Sección 1</div>
+                <div class="header__menu__section"> Sección 2</div>
+                <div class="header__menu__section"> Sección 3</div>
+                <div class="header__menu__section"> Sección 4</div>
+                <div class="header__menu__section"> Sección 5</div>
+            </div>
+            <div id="mobile-menu" onclick="myFunction3()" class="header__menu__mobile">
+                <div class="mobile__menu-wrapper">
+                    <div class="mobile__menu-wrapper__menu">
+                        <div class="menu__section"> Sección 1</div>
+                        <div class="menu__section"> Sección 2</div>
+                        <div class="menu__section"> Sección 3</div>
+                        <div class="menu__section"> Sección 4</div>
+                        <div class="menu__section"> Sección 5</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__union"></div>
+        </header>
+        <div class="content">
+            <div class="container">
+                <div class="content__contents">
+                    <div class="content__contents__tag">Etiqueta</div>
+                    <div class="content__contents__title title">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
+                    <span class="content__contents__text">Lorem ipsum dolor sit amet, <a>consectetur adipiscing</a> elit. <a>Mollis adipiscing</a> in turpis luctus ipsum, amet. Risus ac mauris pellentesque sed nunc nulla accumsan nec. Risus gravida donec tempor feugiat.</span>
+                    <button class="button">
+                        Botón
+                        <div class="button__icon"></div>
+                    </button>
+                </div>
+                <img class="content__image" src="resources/Vector.png"> 
+                <div class="content__dots"></div>
+            </div>
+        </div>
+        <div class="dynamic-content">
+            <div class="container">
+                <div class="dynamic-content__image">
+                    <img id="image2" class="dynamic-content__image__image" src="resources/dynamic-image2.png"> 
+                    <img id="image" class="dynamic-content__image__image dynamic-content__image__image--active" src="resources/dynamic-image.png"> 
+                    <div class="dynamic-content__image__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed amet tortor diam habitasse tristique morbi tempus. Auctor semper diam dignissim turpis nisl ultricies tellus mi. Metus.</div>
+                </div>
+                <div class="dynamic-content__contents">
+                    <div class="dynamic-content__contents__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    <div class="dynamic-content__contents__list">
+                        <div id="remove" onclick="myFunction2()" class="list__item list__item--active">
+                            <div class="list__item__title">
+                                Lorem ipsum <span class="title__icon"></span>
+                            </div> 
+                            <div class="list__item__body">
+                                <img class="dynamic-content__image__image dynamic-content__image__image--active" src="resources/dynamic-image.png"> 
+                                <div class="dynamic-content__image__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed amet tortor diam habitasse tristique morbi tempus. Auctor semper diam dignissim turpis nisl ultricies tellus mi. Metus.</div>
+                            </div>
+                        </div>
+                        <div onclick="myFunction()" id="add" class="list__item">
+                            <div class="list__item__title">
+                                Lorem ipsum <span class="title__icon"></span>
+                            </div> 
+                            <div class="list__item__body">
+                                <img class="dynamic-content__image__image dynamic-content__image__image--active" src="resources/dynamic-image2.png"> 
+                                <div class="dynamic-content__image__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed amet tortor diam habitasse tristique morbi tempus. Auctor semper diam dignissim turpis nisl ultricies tellus mi. Metus.</div>
+                            </div>
+                        </div>
+                        <div class="list__item">
+                            <div class="list__item__title">
+                                Lorem ipsum <span class="title__icon"></span>
+                            </div> 
+                            <div class="list__item__body">
+                                <img class="dynamic-content__image__image" src="resources/dynamic-image.png"> 
+                                <div class="dynamic-content__image__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed amet tortor diam habitasse tristique morbi tempus. Auctor semper diam dignissim turpis nisl ultricies tellus mi. Metus.</div>
+                            </div>
+                        </div>
+                        <div class="list__item">
+                            <div class="list__item__title">
+                                Lorem ipsum <span class="title__icon"></span>
+                            </div> 
+                            <div class="list__item__body">
+                                <img class="dynamic-content__image__image" src="resources/dynamic-image.png"> 
+                                <div class="dynamic-content__image__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed amet tortor diam habitasse tristique morbi tempus. Auctor semper diam dignissim turpis nisl ultricies tellus mi. Metus.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__content__logo"></div>
+                    <div class="footer__content__contents">
+                        <div class="contents__section">
+                            <div class="contents__section__section-title">Lorem ipsum</div>
+                            <div class="contents__section__links">
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                            </div>
+                        </div>
+                        <div class="contents__section">
+                            <div class="contents__section__section-title">Lorem ipsum</div>
+                            <div class="contents__section__links">
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                            </div>
+                        </div>
+                        <div class="contents__section">
+                            <div class="contents__section__section-title">Lorem ipsum</div>
+                            <div class="contents__section__flex-wrapper">
+                                <div class="contents__section__links">
+                                    <div class="links__subtitle">Title</div>
+                                    <div class="links__link">Ejemplo</div>
+                                    <div class="links__link">Ejemplo</div>
+                                    <div class="links__link">Ejemplo</div>
+                                    <div class="links__link">Ejemplo</div>
+                                    <div class="links__link">Ejemplo</div>
+                                </div>
+                                <div class="contents__section__links">
+                                    <div class="links__subtitle">Title</div>
+                                    <div class="links__link">Ejemplo</div>
+                                    <div class="links__link">Ejemplo</div>
+                                    <div class="links__link">Ejemplo</div>
+                                    <div class="links__link">Ejemplo</div>
+                                    <div class="links__link">Ejemplo</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contents__section">
+                            <div class="contents__section__section-title">Lorem ipsum</div>
+                            <div class="contents__section__links">
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                            </div>
+                        </div>
+                        <div class="contents__section">
+                            <div class="contents__section__section-title">Lorem ipsum</div>
+                            <div class="contents__section__links">
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                            </div>
+                        </div>
+                        <div class="contents__section">
+                            <div class="contents__section__section-title">Lorem ipsum</div>
+                            <div class="contents__section__links">
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                                <div class="links__link">Ejemplo</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container container--social">
+                <div class="subfooter">
+                    <div class="subfooter__copyright">© 2022</div>
+                    <div class="subfooter__links">
+                        <div class="subfooter__links__link subfooter__links__link--facebook"></div>
+                        <div class="subfooter__links__link subfooter__links__link--twitter"></div>
+                        <div class="subfooter__links__link subfooter__links__link--linkedin"></div>
+                        <div class="subfooter__links__link subfooter__links__link--instagram"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

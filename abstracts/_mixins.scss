@@ -48,3 +48,11 @@
     -ms-align-self: $as;
     -webkit-align-self: $as;
 }
+
+@mixin position ($p:null, $t:null, $r:null, $b:null, $l:null){
+    position: $p;
+    top: $t;
+    right: $r;
+    bottom: $b;
+    left: $l;
+}
